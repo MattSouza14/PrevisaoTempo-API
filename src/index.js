@@ -41,4 +41,33 @@ async function pesquisar() {
 
 btnPesquisar.addEventListener('click', pesquisar);
 
+let londres = document.getElementById('londres')
+londres.addEventListener('click',()=> exibirInfo('londres') )
+
+let paris = document.getElementById('paris')
+paris.addEventListener('click',()=> exibirInfo('paris') )
+
+let bangkok = document.getElementById('bangkok')
+bangkok.addEventListener('click',()=> exibirInfo('bangkok') )
+
+let cingapura = document.getElementById('cingapura')
+cingapura.addEventListener('click',()=> exibirInfo('cingapura') )
+
+let madrid = document.getElementById('madrid')
+madrid.addEventListener('click',()=> exibirInfo('madrid') )
+
+let frankfurt = document.getElementById('frankfurt')
+frankfurt.addEventListener('click',()=> exibirInfo('frankfurt') )
+
+let roma = document.getElementById('roma')
+roma.addEventListener('click',()=> exibirInfo('roma') )
+
+let novaYork = document.getElementById('novaYork')
+novaYork.addEventListener('click',()=> exibirInfo('New York'))
+
+let amsterda = document.getElementById('amsterda')
+amsterda.addEventListener('click',()=> exibirInfo('amsterdam') )
+
+let milan = document.getElementById('milao')
+milan.addEventListener('click',()=> exibirInfo('milan') )
 
