@@ -10,13 +10,24 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>  
-    <h1>DEV PREVISÃO</h1>
+    <h1>Info Tempo</h1>
     <div class="container">
         <div class="inputPesquisar">
             <form action="">
                 <input type="text" id="pesquisarCidade" placeholder="Digite o nome da cidade">
-                <button></button>
+                <button class="btnPesquisar"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
+        </div>
+        <h2>Tempo em Fortaleza</h2>
+        <div id="resultado">
+            <div class="infoTempo">
+                <p id="temperatura">27ºC</p>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="" id="icone">
+            </div>
+            <div class="infoChuva">
+                <p id="umidade">Umidade: 76%</p>
+                <p id="descricao">Chuva Leve</p>
+            </div>
         </div>
         <h2>Vai viajar para algumas delas?</h2>
         <p>Veja como está o tempo nessas cidades!</p>
@@ -38,7 +49,7 @@
         </div>
     </div>
     <footer>
-        <p>Criado por: <strong>Mateus Souza  <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a></strong></p>
+        <p>Criado por: <strong>Mateus Souza  <a href="https://github.com/MattSouza14" target="_blank"><i class="fa-brands fa-github"></i></a></strong></p>
     </footer>
 
     <script src="./index.js"></script>
